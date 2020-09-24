@@ -2,7 +2,7 @@
 A simple way of doing some calculations with two numbers.
 
 ## 💻 Preview
-<img src="https://github.com/dudaac1/super-calculator/blob/master/super-calculator-preview.jpg?raw=true" />
+<img src="./super-calculator-preview.jpg" alt="super calculator preview" />
 
 ## 📖 About
 An application created with HTML, CSS and JavaScript to exercise:
@@ -14,4 +14,4 @@ An application created with HTML, CSS and JavaScript to exercise:
 - Implementation of functions with JavaScript.
 
 ---
-Developed by Duda Carvalho, 2020.
+*Developed by Duda Carvalho, September 2020.*
