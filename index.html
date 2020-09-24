@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Super Calculadora</title>   
+</head>
+<body>
+    <header>
+        <h1 class="titles">Super Calculadora</h1>
+    </header>
+    <div class="container">
+        <div class="insert">
+            <div>
+                <label>Número A</label><br>
+                <input type="number" id="numberA">
+                <p id="numberAalert"></p>
+            </div>
+            <div>
+                <label>Número B</label><br>
+                <input type="number" id="numberB">
+                <p id="numberBalert"></p>
+            </div>
+        </div>
+        
+        <h2>Resultados</h2>
+        <div class="results">
+            <div>
+                <label>Soma (a+b)</label><br>
+                <input id="sum" readonly>
+            </div><div>
+                <label>Subtração I (a-b)</label><br>
+                <input id="subtrAB" readonly>
+            </div><div>   
+                <label>Subtração II (b-a)</label><br>
+                <input id="subtrBA" readonly>
+            </div><div>   
+                <label>Multiplicação (a*b)</label><br>
+                <input id="mult" readonly>
+            </div><div>    
+                <label>Divisão I (a/b)</label><br>
+                <input id="divAB" readonly>
+            </div><div>  
+                <label>Divisão II (b/a)</label><br>
+                <input id="divBA" readonly>
+            </div><div>    
+                <label>Quadrado de A (a²)</label><br>
+                <input id="a2" readonly>
+            </div><div>    
+                <label>Quadrado de B (b²)</label><br>
+                <input id="b2" readonly>
+            </div><div>   
+                <label>Divisores inteiros de A</label><br>
+                <input id="dividersA" readonly>
+            </div><div>    
+                <label>Divisores inteiros de B</label><br>
+                <input id="dividersB" readonly>
+            </div><div>    
+                <label>Fatorial de A (a!)</label><br>
+                <input id="factorialA" readonly>
+            </div><div>    
+                <label>Fatorial de B (b!)</label><br>
+                <input id="factorialB" readonly>
+            </div>
+        </div>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
