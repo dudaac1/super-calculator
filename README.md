@@ -5,7 +5,7 @@ A simple way of doing some calculations with two numbers.
 <img src="./super-calculator-preview.jpg" alt="super calculator preview" />
 
 ## 📖 About
-An application created with HTML, CSS and JavaScript to exercise:
+An application created with HTML, CSS and JavaScript during IGTI's Bootcamp to exercise:
 - Use of HTML elements.
 - Use of CSS.
 - Use of identifiers in HTML elements.
